@@ -1,4 +1,4 @@
-const planData = {
+ v vconst planData = {
   1: {
     title: 'Week 1 — Learn the basics',
     focus: 'Keep effort moderate, focus on form, and stay consistent.',
