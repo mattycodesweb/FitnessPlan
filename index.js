@@ -5,24 +5,39 @@
     schedule: [
       {
         day: 'Monday',
-        title: 'Full Body A',
-        details: ['Goblet squat 2 x 10', 'Incline push-ups 2 x 8', 'Dumbbell row 2 x 10', 'Glute bridge 2 x 12', 'Plank 2 x 20 sec']
+        title: 'Chest + Triceps',
+        details: ['Bench Press 4 x 6 - 8', 'Incline Dumbbell Press 3 x 8 - 10', 'Cable or Dumbbell Flyes 3 x 12 - 15', 'Rope Pushdowns 3 x 10 - 12', 'Overhead Tricep Extension 3 x 12 - 15', 'Push-up Burnout 2 sets to near failure']
+      },
+      {
+        day: 'Tuesday',
+        title: 'Back + Biceps',
+        details: ['Lat Pulldown 4 x 8 - 10', 'Seated Cable Row 3 x 10', 'One-Arm Dumbbell Row 3 x 10 each side', 'Face Pulls 3 x 15', 'EZ Bar Curl 3 x 10', 'Hammer Curl 3 x 10']
       },
       {
         day: 'Wednesday',
-        title: 'Full Body B',
-        details: ['Step-ups 2 x 8 each leg', 'Wall push-ups or bench press 2 x 10', 'Band pull-aparts 2 x 12', 'Dead bug 2 x 8 each side', 'Bird dog 2 x 8 each side']
+        title: 'Legs + Core',
+        details: ['Squats (or Leg Press) 4 x 8 - 10', 'Romanian Deadlift 3 x 10', 'Walking Lunges 3 x 12 each leg', 'Leg Curl 3 x 12 - 15', 'Standing Calf Raises 4 x 15', 'CORE: Plank 2 x 30 sec','Side Plank 2 x 30 sec each side', 'Russian Twists 2 x 20', 'Hanging Knee Raises 3 x 12 - 15', 'Cable Crunch 4 x 15']
+      },
+      {
+        day: 'Thursday',
+        title: 'Upper Body Hypertrophy - This day focuses on muscle growth with lighter weights and higher reps. It also gives you your chest, shoulders, and back a second stimulus without beating up your joints',
+        details: ['Incline Dumbbell Press 3 x 10 - 12', 'Chest-Supported Row 3 x 10 - 12', 'Dumbbell Shoulder Press 3 x 10', 'Lateral Raises 3 x 15', 'Cable or Dumbbell Flyes 2 x 15', 'Straight Arm Pulldowns 2 x 15', 'Rope Pushdowns 2 x 15', 'Dumbbell or Cable Bicep Curl 2 x 15']
       },
       {
         day: 'Friday',
-        title: 'Cardio + Core',
-        details: ['20-minute brisk walk', '10-minute easy bike or march in place', 'Side plank 2 x 15 sec each side']
+        title: 'Shoulders + Arms',
+        details: ['Seated Dumbbell Shoulder Press 4 x 8', 'Lateral Raises 4 x 12 - 15', 'Rear Delt Fly 3 x 15', 'Close-Grip Bench Press 3 x 8 - 10', 'Dumbbell Bicep Curl 3 x 10 - 12', 'Tricep Dips 3 x 12 - 15', 'Rope Pushdowns 3 x 12']
       },
       {
-        day: 'Weekend',
+        day: 'Saturday',
+        title: 'Full Body',
+        details: ['Incline Dumbbell Press 3 x 10', 'Pull-ups or Lat Pulldown 3 x 10', 'Goblet Squat 3 x 12', 'Romanian Deadlift 3 x 10', 'Plank 2 x 30 sec', 'Side Plank 2 x 30 sec each side', 'FINISH WITH: 30 minute walk or jog']
+      },
+      {
+        day: 'Sunday',
         title: 'Recovery',
-        details: ['Easy walk 20 minutes', 'Stretch for 10 minutes', 'Keep meals simple and protein-focused']
-      }
+        details: ['Rest completely']
+      },
     ],
     nutrition: ['Aim for 180–190 g protein daily.', 'Keep carbs mostly around workouts.', 'Eat 2–3 servings of vegetables each day.']
   },
@@ -32,77 +47,122 @@
     schedule: [
       {
         day: 'Monday',
-        title: 'Full Body A',
-        details: ['Goblet squat 3 x 10', 'Incline push-ups 3 x 8', 'Dumbbell row 3 x 10', 'Glute bridge 3 x 12', 'Plank 3 x 25 sec']
+        title: 'Chest + Triceps',
+        details: ['Bench Press 4 x 6 - 8', 'Incline Dumbbell Press 3 x 8 - 10', 'Cable or Dumbbell Flyes 3 x 12 - 15', 'Rope Pushdowns 3 x 10 - 12', 'Overhead Tricep Extension 3 x 12 - 15', 'Push-up Burnout 2 sets to near failure']
+      },
+      {
+        day: 'Tuesday',
+        title: 'Back + Biceps',
+        details: ['Lat Pulldown 4 x 8 - 10', 'Seated Cable Row 3 x 10', 'One-Arm Dumbbell Row 3 x 10 each side', 'Face Pulls 3 x 15', 'EZ Bar Curl 3 x 10', 'Hammer Curl 3 x 10']
       },
       {
         day: 'Wednesday',
-        title: 'Full Body B',
-        details: ['Step-ups 3 x 8 each leg', 'Dumbbell floor press 3 x 10', 'Band pull-aparts 3 x 12', 'Dead bug 3 x 8 each side', 'Bird dog 3 x 8 each side']
+        title: 'Legs + Core',
+        details: ['Squats (or Leg Press) 4 x 8 - 10', 'Romanian Deadlift 3 x 10', 'Walking Lunges 3 x 12 each leg', 'Leg Curl 3 x 12 - 15', 'Standing Calf Raises 4 x 15', 'CORE: Plank 2 x 30 sec','Side Plank 2 x 30 sec each side', 'Russian Twists 2 x 20', 'Hanging Knee Raises 3 x 12 - 15', 'Cable Crunch 4 x 15']
+      },
+      {
+        day: 'Thursday',
+        title: 'Upper Body Hypertrophy - This day focuses on muscle growth with lighter weights and higher reps. It also gives you your chest, shoulders, and back a second stimulus without beating up your joints',
+        details: ['Incline Dumbbell Press 3 x 10 - 12', 'Chest-Supported Row 3 x 10 - 12', 'Dumbbell Shoulder Press 3 x 10', 'Lateral Raises 3 x 15', 'Cable or Dumbbell Flyes 2 x 15', 'Straight Arm Pulldowns 2 x 15', 'Rope Pushdowns 2 x 15', 'Dumbbell or Cable Bicep Curl 2 x 15']
       },
       {
         day: 'Friday',
-        title: 'Cardio + Core',
-        details: ['25-minute brisk walk', '10 minutes of incline treadmill or bike', 'Side plank 2 x 20 sec each side']
+        title: 'Shoulders + Arms',
+        details: ['Seated Dumbbell Shoulder Press 4 x 8', 'Lateral Raises 4 x 12 - 15', 'Rear Delt Fly 3 x 15', 'Close-Grip Bench Press 3 x 8 - 10', 'Dumbbell Bicep Curl 3 x 10 - 12', 'Tricep Dips 3 x 12 - 15', 'Rope Pushdowns 3 x 12']
       },
       {
-        day: 'Weekend',
+        day: 'Saturday',
+        title: 'Full Body',
+        details: ['Incline Dumbbell Press 3 x 10', 'Pull-ups or Lat Pulldown 3 x 10', 'Goblet Squat 3 x 12', 'Romanian Deadlift 3 x 10', 'Plank 2 x 30 sec', 'Side Plank 2 x 30 sec each side', 'FINISH WITH: 30 minute walk or jog']
+      },
+      {
+        day: 'Sunday',
         title: 'Recovery',
-        details: ['Easy walk 25 minutes', 'Mobility flow 10 minutes', 'Sleep 7–8 hours']
-      }
+        details: ['Rest completely']
+      },
     ],
-    nutrition: ['Keep protein high and avoid liquid calories.', 'Use fruit and yogurt for snacks.', 'Try a small calorie deficit if your weight is not moving.']
+    nutrition: ['Aim for 180–190 g protein daily.', 'Keep carbs mostly around workouts.', 'Eat 2–3 servings of vegetables each day.']
   },
   3: {
-    title: 'Week 3 — Stay consistent',
-    focus: 'Keep the routine steady and let the work compound.',
+    title: 'Week 2 — Add a little volume',
+    focus: 'Slightly increase reps and hold the same pace.',
     schedule: [
       {
         day: 'Monday',
-        title: 'Full Body A',
-        details: ['Goblet squat 3 x 10–12', 'Incline push-ups 3 x 10', 'Dumbbell row 3 x 10', 'Glute bridge 3 x 12', 'Plank 3 x 30 sec']
+        title: 'Chest + Triceps',
+        details: ['Bench Press 4 x 6 - 8', 'Incline Dumbbell Press 3 x 8 - 10', 'Cable or Dumbbell Flyes 3 x 12 - 15', 'Rope Pushdowns 3 x 10 - 12', 'Overhead Tricep Extension 3 x 12 - 15', 'Push-up Burnout 2 sets to near failure']
+      },
+      {
+        day: 'Tuesday',
+        title: 'Back + Biceps',
+        details: ['Lat Pulldown 4 x 8 - 10', 'Seated Cable Row 3 x 10', 'One-Arm Dumbbell Row 3 x 10 each side', 'Face Pulls 3 x 15', 'EZ Bar Curl 3 x 10', 'Hammer Curl 3 x 10']
       },
       {
         day: 'Wednesday',
-        title: 'Full Body B',
-        details: ['Step-ups 3 x 10 each leg', 'Dumbbell floor press 3 x 10', 'Band pull-aparts 3 x 12', 'Dead bug 3 x 10 each side', 'Bird dog 3 x 10 each side']
+        title: 'Legs + Core',
+        details: ['Squats (or Leg Press) 4 x 8 - 10', 'Romanian Deadlift 3 x 10', 'Walking Lunges 3 x 12 each leg', 'Leg Curl 3 x 12 - 15', 'Standing Calf Raises 4 x 15', 'CORE: Plank 2 x 30 sec','Side Plank 2 x 30 sec each side', 'Russian Twists 2 x 20', 'Hanging Knee Raises 3 x 12 - 15', 'Cable Crunch 4 x 15']
+      },
+      {
+        day: 'Thursday',
+        title: 'Upper Body Hypertrophy - This day focuses on muscle growth with lighter weights and higher reps. It also gives you your chest, shoulders, and back a second stimulus without beating up your joints',
+        details: ['Incline Dumbbell Press 3 x 10 - 12', 'Chest-Supported Row 3 x 10 - 12', 'Dumbbell Shoulder Press 3 x 10', 'Lateral Raises 3 x 15', 'Cable or Dumbbell Flyes 2 x 15', 'Straight Arm Pulldowns 2 x 15', 'Rope Pushdowns 2 x 15', 'Dumbbell or Cable Bicep Curl 2 x 15']
       },
       {
         day: 'Friday',
-        title: 'Cardio + Core',
-        details: ['30-minute brisk walk', '10 minutes of bike or marching', 'Side plank 2 x 25 sec each side']
+        title: 'Shoulders + Arms',
+        details: ['Seated Dumbbell Shoulder Press 4 x 8', 'Lateral Raises 4 x 12 - 15', 'Rear Delt Fly 3 x 15', 'Close-Grip Bench Press 3 x 8 - 10', 'Dumbbell Bicep Curl 3 x 10 - 12', 'Tricep Dips 3 x 12 - 15', 'Rope Pushdowns 3 x 12']
       },
       {
-        day: 'Weekend',
+        day: 'Saturday',
+        title: 'Full Body',
+        details: ['Incline Dumbbell Press 3 x 10', 'Pull-ups or Lat Pulldown 3 x 10', 'Goblet Squat 3 x 12', 'Romanian Deadlift 3 x 10', 'Plank 2 x 30 sec', 'Side Plank 2 x 30 sec each side', 'FINISH WITH: 30 minute walk or jog']
+      },
+      {
+        day: 'Sunday',
         title: 'Recovery',
-        details: ['Easy walk 30 minutes', 'Stretch and hydrate', 'Keep meals simple and consistent']
+        details: ['Rest completely']
       }
     ],
     nutrition: ['Eat mostly whole foods.', 'Add a protein shake if needed.', 'Keep your evening meals lighter and balanced.']
   },
   4: {
-    title: 'Week 4 — Repeat and refine',
-    focus: 'Hold the plan, improve your effort, and stay patient.',
+    title: 'Week 2 — Add a little volume',
+    focus: 'Slightly increase reps and hold the same pace.',
     schedule: [
       {
         day: 'Monday',
-        title: 'Full Body A',
-        details: ['Goblet squat 3 x 10', 'Incline push-ups 3 x 8–10', 'Dumbbell row 3 x 10', 'Glute bridge 3 x 12', 'Plank 3 x 30 sec']
+        title: 'Chest + Triceps',
+        details: ['Bench Press 4 x 6 - 8', 'Incline Dumbbell Press 3 x 8 - 10', 'Cable or Dumbbell Flyes 3 x 12 - 15', 'Rope Pushdowns 3 x 10 - 12', 'Overhead Tricep Extension 3 x 12 - 15', 'Push-up Burnout 2 sets to near failure']
+      },
+      {
+        day: 'Tuesday',
+        title: 'Back + Biceps',
+        details: ['Lat Pulldown 4 x 8 - 10', 'Seated Cable Row 3 x 10', 'One-Arm Dumbbell Row 3 x 10 each side', 'Face Pulls 3 x 15', 'EZ Bar Curl 3 x 10', 'Hammer Curl 3 x 10']
       },
       {
         day: 'Wednesday',
-        title: 'Full Body B',
-        details: ['Step-ups 3 x 10 each leg', 'Dumbbell floor press 3 x 10', 'Band pull-aparts 3 x 12', 'Dead bug 3 x 10 each side', 'Bird dog 3 x 10 each side']
+        title: 'Legs + Core',
+        details: ['Squats (or Leg Press) 4 x 8 - 10', 'Romanian Deadlift 3 x 10', 'Walking Lunges 3 x 12 each leg', 'Leg Curl 3 x 12 - 15', 'Standing Calf Raises 4 x 15', 'CORE: Plank 2 x 30 sec','Side Plank 2 x 30 sec each side', 'Russian Twists 2 x 20', 'Hanging Knee Raises 3 x 12 - 15', 'Cable Crunch 4 x 15']
+      },
+      {
+        day: 'Thursday',
+        title: 'Upper Body Hypertrophy - This day focuses on muscle growth with lighter weights and higher reps. It also gives you your chest, shoulders, and back a second stimulus without beating up your joints',
+        details: ['Incline Dumbbell Press 3 x 10 - 12', 'Chest-Supported Row 3 x 10 - 12', 'Dumbbell Shoulder Press 3 x 10', 'Lateral Raises 3 x 15', 'Cable or Dumbbell Flyes 2 x 15', 'Straight Arm Pulldowns 2 x 15', 'Rope Pushdowns 2 x 15', 'Dumbbell or Cable Bicep Curl 2 x 15']
       },
       {
         day: 'Friday',
-        title: 'Cardio + Core',
-        details: ['30-minute brisk walk', '12 minutes of incline treadmill or bike', 'Side plank 2 x 30 sec each side']
+        title: 'Shoulders + Arms',
+        details: ['Seated Dumbbell Shoulder Press 4 x 8', 'Lateral Raises 4 x 12 - 15', 'Rear Delt Fly 3 x 15', 'Close-Grip Bench Press 3 x 8 - 10', 'Dumbbell Bicep Curl 3 x 10 - 12', 'Tricep Dips 3 x 12 - 15', 'Rope Pushdowns 3 x 12']
       },
       {
-        day: 'Weekend',
+        day: 'Saturday',
+        title: 'Full Body',
+        details: ['Incline Dumbbell Press 3 x 10', 'Pull-ups or Lat Pulldown 3 x 10', 'Goblet Squat 3 x 12', 'Romanian Deadlift 3 x 10', 'Plank 2 x 30 sec', 'Side Plank 2 x 30 sec each side', 'FINISH WITH: 30 minute walk or jog']
+      },
+      {
+        day: 'Sunday',
         title: 'Recovery',
-        details: ['Easy walk 30 minutes', 'Stretch 10 minutes', 'Reflect on your progress and repeat']
+        details: ['Rest completely']
       }
     ],
     nutrition: ['Keep the same habits for 2–4 more weeks.', 'Use a small calorie deficit if fat loss slows.', 'Aim for 8,000–10,000 steps per day when possible.']
